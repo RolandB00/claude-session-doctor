@@ -1,0 +1,30 @@
+{
+  "name": "claude-session-doctor",
+  "version": "0.1.0",
+  "description": "Local-first diagnostics for common AI coding-agent and provider session errors.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "bin": {
+    "session-doctor": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RolandB00/claude-session-doctor.git"
+  },
+  "keywords": [
+    "claude-code",
+    "ai-agents",
+    "debugging",
+    "cli",
+    "llm",
+    "developer-tools"
+  ]
+}
